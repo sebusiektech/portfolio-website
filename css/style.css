@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+header{
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    z-index: 1000;
+}
+
+.github-icon{
+    color: black;
+}
+
+
+.logo{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+header ul{
+display: flex;
+    gap: 3rem;
+}
+
+li a{
+    color: white;
+    font-weight: 400;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.github-btn{
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+}
+.github-btn:hover{
+    transform: scale(1.03);
+}
+
+section{
+    min-height: 100vh;
+    padding: 8rem;
+    width: 100%;
+    position: relative;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.about img{
+    width: 30vh;
+    border-radius: 50%;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.info-box h1{
+    font-size: 4rem;
+}
+
+.info-box h3{
+    font-size: 1.8rem;
+}
+
+.socials i{
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.socials i:hover{
+    transform: scale(1.1);
+}
+
+.skill-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.skills-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.grid-card{
+    border: 2px solid black;
+    border-radius: 3rem;
+    padding: 3rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.grid-card:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+}
+
+.grid-card i{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.certificates-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+}
+
+.certificates-card{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.certificates-card:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+}
+
+.certificates-card img{
+    width: 50vh;
+    border-radius: 1rem;
+}
+
+.certificates-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.email-link{
+    display: inline-block;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.email-link:hover{
+    transform: scale(1.1);
+}
+
+.mail-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+}
