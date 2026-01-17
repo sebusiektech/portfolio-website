@@ -6,7 +6,7 @@ The website presents my skills, certificates, and contact information in a clean
 ## 🌍 Live Demo
 
 🔗 **GitHub Pages:**  
-https://sebusiekpolakpl.github.io/portfolio-website/
+https://sebusiektech.github.io/portfolio-website/
 
 ## 📌 About the Project
 
@@ -34,10 +34,11 @@ The site is fully static, fast, and easy to deploy with GitHub Pages.
 ## 👤 Author
 
 **Sebastian Klepacz**  
-- GitHub: [SebusiekPolakPL](https://github.com/SebusiekPolakPL)  
-- Email: sebastianklepacz07@gmail.com  
+- GitHub: [sebusiektech](https://github.com/sebusiektech)  
+- Email: sebastianklepacz07@gmail.com
 
 ## 📜 License
 
 This project is created for personal and educational purposes.  
+
 You are welcome to explore the code and use it as inspiration.
