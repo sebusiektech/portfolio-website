@@ -6,7 +6,7 @@ The website presents my skills, certificates, and contact information in a clean
 ## 🌍 Live Demo
 
 🔗 **GitHub Pages:**  
-https://sebusiektech.github.io/portfolio-website/
+https://sebusiektech.github.io/portfolio-website/ (no active!)
 
 ## 📌 About the Project
 
